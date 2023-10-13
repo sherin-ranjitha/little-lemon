@@ -1,23 +1,17 @@
-
+import React from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Highlights from './Highlights';
-import Testimonials from './Testimonials';
-import About from './About';
-import Footer from './Footer';
-
-
+import Nav from './components/Nav';
+import Main from './components/Main';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    {/* <Hero/>
-    <Highlights/>
-    <Testimonials/>
-    <About/>
-    <Footer/> */}
+    <Nav/>
+    <Main/>
+    <Menu/>
+    <Footer/>
     </>
   );
 }
